@@ -17,12 +17,15 @@
         
         <midi-player
   src="/src/Traverse_Town.mid"
-  sound-font visualizer="#visualiserTraverseTown">
+  sound-font visualizer="#visualiserTT">
 </midi-player>
 
-<midi-player src="/src/kh3_edge_of_existence.mid" sound-font visualiser="visualiserEdgeOE"></midi-player>
+<midi-player src="/src/kh3_edge_of_existence.mid" sound-font visualiser="visualiserEOE"></midi-player>
 
-<midi-visualizer type="piano-roll" id="#visualiserTraverseTown, #visualiserEdgeOE"></midi-visualizer>
+<midi-visualizer type="piano-roll" id="#visualiserTT, #visualiserEOE"></midi-visualizer>
+
+<midi-player visualizer="#visualiserTT, #visualiserEOE"></midi-player>
+
 <p>
 Source: <a href="https://github.com/cifkao/html-midi-player">html-midi-player</a>
 </p>
