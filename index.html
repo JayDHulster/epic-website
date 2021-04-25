@@ -5,10 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.21.0/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.1.1"></script>
 </head>
 <body>
     <h1>Welcome to my site!</h1>
-    <p>This website is empty!</p>
-    <p class="hidden">fuck you</p>
+
+    <p>I will test out multiple things here.</p>
+    <p>For instance listen to this song!</p>
+
+    <div class="midi">
+        
+        <midi-player
+  src="/src/Traverse_Town.mid"
+  sound-font visualizer="#myVisualizer">
+</midi-player>
+<midi-visualizer type="waterfall" id="myVisualizer"></midi-visualizer>
+
+Source: <a href="https://github.com/cifkao/html-midi-player">html-midi-player</a>
+    </div>
+    <footer>By Jay D'Hulster</footer>
 </body>
 </html>
