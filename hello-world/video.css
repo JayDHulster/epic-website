@@ -1,0 +1,19 @@
+:root{
+    background-color: black;
+    color: whitesmoke;}
+
+    a{
+        color: cyan;
+    }
+
+    a:hover{
+        color: deeppink;
+    }
+
+    a:focus{
+        color: red;
+    }
+
+    a:visited{
+        color: darkgrey;
+    }
